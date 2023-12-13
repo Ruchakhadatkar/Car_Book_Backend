@@ -3,9 +3,9 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
 
-const workoutRoutes = require("./routes/workouts");
+// const workoutRoutes = require("./routes/workouts");
+const carRoutes = require("./routes/cars");
 const userRoutes = require("./routes/user");
-
 
 dotenv.config();
 
@@ -22,9 +22,10 @@ app.use((req, res, next) => {
 });
 
 //route/api
-app.use("/api/workouts", workoutRoutes);
-app.use("/api/user", userRoutes);
+// app.use("/api/workouts", workoutRoutes);
 
+app.use("/api/cars", carRoutes);
+app.use("/api/user", userRoutes);
 
 //connect to DB
 mongoose
