@@ -6,6 +6,7 @@ const cors = require("cors");
 // const workoutRoutes = require("./routes/workouts");
 const carRoutes = require("./routes/cars");
 const userRoutes = require("./routes/user");
+const BookingDetailRoutes = require("./routes/bookingDetails");
 
 dotenv.config();
 
@@ -26,6 +27,7 @@ app.use((req, res, next) => {
 
 app.use("/api/cars", carRoutes);
 app.use("/api/user", userRoutes);
+app.use("/api/bookingdetail", BookingDetailRoutes);
 
 //connect to DB
 mongoose
@@ -39,7 +41,4 @@ mongoose
     console.log(error);
   });
 
-//listen for request
-// app.listen(process.env.PORT, () => {
-//   console.log("Server started at port", process.env.PORT);
-// });
+

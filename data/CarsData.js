@@ -2,7 +2,7 @@ const CarsData = [
   {
     carName: "Hyundai Grand i10",
     image:
-      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702300754/Cars/hyundai-grand-i10_grtcvg.jpg",
+      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702648355/Cars/2_1_-_i-10_coyrfr.webp",
     type: "Manual",
     fuelType: "Petrol",
     seats: "5 Seats",
@@ -12,7 +12,7 @@ const CarsData = [
   {
     carName: "Maruti Suzuki Swift Dzire ",
     image:
-      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702301791/Cars/Swift_Dzire_xklqpq.jpg",
+      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702645344/Cars/2017-Maruti-Dzire_hy7mlf.jpg",
     type: "Manual",
     fuelType: "Petrol",
     seats: "5 Seats",
@@ -32,7 +32,7 @@ const CarsData = [
   {
     carName: "Hyundai Verna ",
     image:
-      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702302155/Cars/hyundai_verna_mhyamy.jpg",
+      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702646397/Cars/Verna-_kvdex8.jpg",
     type: "Automatic",
     fuelType: "Petrol",
     seats: "5 Seats",
@@ -52,7 +52,7 @@ const CarsData = [
   {
     carName: "Tata Nexon",
     image:
-      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702302615/Cars/Tata_Nexon_w3ipbw.jpg",
+      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702646061/Cars/20210608124920_Tata_Nexon_ym83n2.jpg",
     type: "Manual",
     fuelType: "Petrol",
     seats: "5 Seats",
@@ -132,7 +132,7 @@ const CarsData = [
   {
     carName: "Mahindra Thar",
     image:
-      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702307738/Cars/thar_b3qhgu.jpg",
+      "https://res.cloudinary.com/ditqh6dqi/image/upload/v1702645507/Cars/2021-Mahindra-Thar_bs76jw.jpg",
     type: "Manual",
     fuelType: "Petrol",
     seats: "6 Seats",
