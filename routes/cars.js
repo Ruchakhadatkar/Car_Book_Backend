@@ -4,7 +4,7 @@ const requireAuth = require("../middleware/requireAuth");
 
 const router = express.Router();
 
-// router.post("/", postCars )
+router.post("/", postCars )
 
 //require auth for all workout routes
 router.use(requireAuth);
